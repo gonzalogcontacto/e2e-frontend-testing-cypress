@@ -2,7 +2,7 @@ context("Feature: User discovering products available ", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3001");
   });
-
+  // @TODO: implements cucumber to have a .feature file for each Cypress file test.
   describe("Scenario: User get a look to the product list", () => {
     describe("Given 0 products selected", () => {
       it("Then cart is empty", () => {
